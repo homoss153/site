@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.main {
+    background-color: rgb(26, 199, 252);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main button {
+    height: 40px;
+    border: 0;
+    background: white;
+    border-radius: 40px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.main ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main ul li{
+    margin: 50px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.main ul li a {
+    text-decoration: none;
+    color: white;
+}
+.block-2 {
+    margin: auto;
+    width: 1100px;
+    margin-top: 50px;
+}
+
+.block-2 h1 {
+    text-align: center;
+}
+
+.block-2 ol {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+.block-2 ol li {
+    width: 300px;
+    font-size: 20px;
+    padding: 0;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+
+.block-2 ol li div {
+    display: flex;
+    align-items: center;
+}
+
+.block-2 ol li p {
+    color: black;
+    font-size: 20px;
+    margin: 0;
+}
+
+.block-3 {
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.block-3 h1 {
+    margin-bottom: 0;
+}
+.block-3 h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.block-3 p {
+    font-size: 20px;
+}
+
+.block-3-blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.block-3-blocks div {
+    width: 250px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: grey;
+    margin: 30px;
+    text-align: left;
+    padding: 30px;
+}
+
+.block-3-blocks div {
+    font-size: 20px;
+}
+
+
+
+.block-4 {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    margin-bottom: 100px;
+    background: url("oformlenie-pomeschenii-sinim.jpg");
+    border-radius: 10px;
+}
+
+.block-4-main {
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    padding-top: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.850);
+}
+
+
+
+.block-4-main input {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+}
+
+
+.block-4-main button {
+    width: 130px;
+    height: 40px;
+    margin-top: 40px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(26, 199, 252);
+    border: 0;
+}
+
+.block-5 {
+    background-color: rgb(110, 112, 121);
+    height: 400px;
+    margin-top: 50px;
+}
+
+
+.block-5-main {
+    width: 1000px;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.block-5-main ul {
+    list-style-type: none;
+}
+
+.block-5-main ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.block-5-main ul li{
+    margin-top: 10px;
+}
+
+
+.block-action {
+    width: 1000px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.block-action h1 {
+    text-align: center;
+}
+
+.block-action div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-action div div {
+    width: 400px;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: grey;
+    margin: 30px;
+    text-align: left;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.block-action div div div {
+    width: 100%;
+    height: 100%;
+    background: url("CARNEVALE.jpg");
+    background-size: 600px;
+    margin: 0;
+    padding: 0;
+    border-bottom-left-radius: 0;
+    border: 0;
+    border-bottom-right-radius: 0;
+}
+
+.block-action div div h2 {
+    margin: 20px;
+    margin-bottom: 15px;
+}
+.block-action div div p {
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.block-action div div button{
+    width: 200px;
+    height: 70px;
+    margin-left: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+}
